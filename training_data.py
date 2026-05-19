@@ -1,8 +1,5 @@
 crf_training_data = [
     # --- asurascans.com ---
-    [("asurascans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("the", "TITLE_PART"), ("regressor", "TITLE_PART"), ("can", "TITLE_PART"), ("make", "TITLE_PART"), ("them", "TITLE_PART"), ("all", "TITLE_PART"), ("030ff47a", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("27", "CHAPTER_NUM")],
-    [("asurascans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("chronicles", "TITLE_PART"), ("of", "TITLE_PART"), ("the", "TITLE_PART"), ("lazy", "TITLE_PART"), ("sovereign", "TITLE_PART"), ("030ff47a", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("48", "CHAPTER_NUM")],
-    [("asurascans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("chronicles", "TITLE_PART"), ("of", "TITLE_PART"), ("the", "TITLE_PART"), ("demon", "TITLE_PART"), ("faction", "TITLE_PART"), ("030ff47a", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("170", "CHAPTER_NUM")],
     [("asurascans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("academys", "TITLE_PART"), ("genius", "TITLE_PART"), ("swordmaster", "TITLE_PART"), ("030ff47a", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("135", "CHAPTER_NUM")],
     [("asurascans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("sandmancer", "TITLE_PART"), ("of", "TITLE_PART"), ("the", "TITLE_PART"), ("scorched", "TITLE_PART"), ("desert", "TITLE_PART"), ("030ff47a", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("21", "CHAPTER_NUM")],
     [("asurascans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("the", "TITLE_PART"), ("martial", "TITLE_PART"), ("genius", "TITLE_PART"), ("who", "TITLE_PART"), ("remembers", "TITLE_PART"), ("everything", "TITLE_PART"), ("030ff47a", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("9", "CHAPTER_NUM")],
@@ -22,8 +19,6 @@ crf_training_data = [
     [("asurascans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("a", "TITLE_PART"), ("mercenarys", "TITLE_PART"), ("rebirth", "TITLE_PART"), ("among", "TITLE_PART"), ("nobles", "TITLE_PART"), ("030ff47a", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("32", "CHAPTER_NUM")],
 
     # --- kunmanga.com ---
-    [("kunmanga.com", "DOMAIN"), ("manga", "STRUCTURAL"), ("becoming", "TITLE_PART"), ("a", "TITLE_PART"), ("villainess", "TITLE_PART"), ("yet", "TITLE_PART"), ("wanting", "TITLE_PART"), ("to", "TITLE_PART"), ("live", "TITLE_PART"), ("long", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("19", "CHAPTER_NUM")],
-    [("kunmanga.com", "DOMAIN"), ("manga", "STRUCTURAL"), ("limited", "TITLE_PART"), ("extra", "TITLE_PART"), ("time", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("113", "CHAPTER_NUM")],
     [("kunmanga.com", "DOMAIN"), ("manga", "STRUCTURAL"), ("my", "TITLE_PART"), ("bias", "TITLE_PART"), ("gets", "TITLE_PART"), ("on", "TITLE_PART"), ("the", "TITLE_PART"), ("last", "TITLE_PART"), ("train", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("79", "CHAPTER_NUM")],
     [("kunmanga.com", "DOMAIN"), ("manga", "STRUCTURAL"), ("marriage", "TITLE_PART"), ("is", "TITLE_PART"), ("with", "TITLE_PART"), ("your", "TITLE_PART"), ("brother", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("66", "CHAPTER_NUM")],
     [("kunmanga.com", "DOMAIN"), ("manga", "STRUCTURAL"), ("around", "TITLE_PART"), ("forty", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("38", "CHAPTER_NUM")],
@@ -45,26 +40,24 @@ crf_training_data = [
 
     # --- mangakakalot.gg ---
     # /manga/title-words/chapter-num
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("ishigami", "TITLE_PART"), ("senki", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("35", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("becoming", "TITLE_PART"), ("a", "TITLE_PART"), ("villainess", "TITLE_PART"), ("yet", "TITLE_PART"), ("wanting", "TITLE_PART"), ("to", "TITLE_PART"), ("live", "TITLE_PART"), ("long", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("19", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("aksin", "TITLE_PART"), ("sonyeon", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("36", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("power", "TITLE_PART"), ("play", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("44", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("million", "TITLE_PART"), ("moja", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("6", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("uso", "TITLE_PART"), ("to", "TITLE_PART"), ("noroi", "TITLE_PART"), ("wa", "TITLE_PART"), ("himeyaka", "TITLE_PART"), ("ni", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("1", "CHAPTER_NUM"), ("2", "OTHER")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("tachi", "TITLE_PART"), ("nomi", "TITLE_PART"), ("izakaya", "TITLE_PART"), ("de", "TITLE_PART"), ("kei", "TITLE_PART"), ("joshidaisei", "TITLE_PART"), ("ga", "TITLE_PART"), ("tonari", "TITLE_PART"), ("ni", "TITLE_PART"), ("kuru", "TITLE_PART"), ("hanashi", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("3", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("white", "TITLE_PART"), ("night", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("5", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("office", "TITLE_PART"), ("no", "TITLE_PART"), ("host", "TITLE_PART"), ("sama", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("2", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("the", "TITLE_PART"), ("maid", "TITLE_PART"), ("i", "TITLE_PART"), ("hired", "TITLE_PART"), ("recently", "TITLE_PART"), ("is", "TITLE_PART"), ("mysterious", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("71", "CHAPTER_NUM"), ("1", "OTHER")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("chronicles", "TITLE_PART"), ("of", "TITLE_PART"), ("the", "TITLE_PART"), ("lazy", "TITLE_PART"), ("sovereign", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("48", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("taejonbirok", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("48", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("i", "TITLE_PART"), ("was", "TITLE_PART"), ("reincarnated", "TITLE_PART"), ("as", "TITLE_PART"), ("the", "TITLE_PART"), ("villainess", "TITLE_PART"), ("s", "TITLE_PART"), ("sister", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("20", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("fuguu", "TITLE_PART"), ("reijou", "TITLE_PART"), ("to", "TITLE_PART"), ("hikikomori", "TITLE_PART"), ("mahoutsukai", "TITLE_PART"), ("futari", "TITLE_PART"), ("de", "TITLE_PART"), ("slow", "TITLE_PART"), ("life", "TITLE_PART"), ("wo", "TITLE_PART"), ("mezashimasu", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("4", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("neko", "TITLE_PART"), ("no", "TITLE_PART"), ("oshigoto", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("20", "CHAPTER_NUM"), ("1", "OTHER")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("i", "TITLE_PART"), ("ll", "TITLE_PART"), ("marry", "TITLE_PART"), ("your", "TITLE_PART"), ("brother", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("65", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("i", "TITLE_PART"), ("became", "TITLE_PART"), ("the", "TITLE_PART"), ("trashy", "TITLE_PART"), ("dukes", "TITLE_PART"), ("affair", "TITLE_PART"), ("partner", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("16", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("the", "TITLE_PART"), ("wavering", "TITLE_PART"), ("husband", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("34", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("don", "TITLE_PART"), ("t", "TITLE_PART"), ("underestimate", "TITLE_PART"), ("bread", "TITLE_PART"), ("making", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("12", "CHAPTER_NUM")],
-    [("www.mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("the", "TITLE_PART"), ("young", "TITLE_PART"), ("lady", "TITLE_PART"), ("has", "TITLE_PART"), ("been", "TITLE_PART"), ("acting", "TITLE_PART"), ("weird", "TITLE_PART"), ("ever", "TITLE_PART"), ("since", "TITLE_PART"), ("someone", "TITLE_PART"), ("confessed", "TITLE_PART"), ("to", "TITLE_PART"), ("me", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("7", "CHAPTER_NUM"), ("5", "OTHER")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("ishigami", "TITLE_PART"), ("senki", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("35", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("becoming", "TITLE_PART"), ("a", "TITLE_PART"), ("villainess", "TITLE_PART"), ("yet", "TITLE_PART"), ("wanting", "TITLE_PART"), ("to", "TITLE_PART"), ("live", "TITLE_PART"), ("long", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("19", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("aksin", "TITLE_PART"), ("sonyeon", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("36", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("power", "TITLE_PART"), ("play", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("44", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("million", "TITLE_PART"), ("moja", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("6", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("uso", "TITLE_PART"), ("to", "TITLE_PART"), ("noroi", "TITLE_PART"), ("wa", "TITLE_PART"), ("himeyaka", "TITLE_PART"), ("ni", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("1", "CHAPTER_NUM"), ("2", "OTHER")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("tachi", "TITLE_PART"), ("nomi", "TITLE_PART"), ("izakaya", "TITLE_PART"), ("de", "TITLE_PART"), ("kei", "TITLE_PART"), ("joshidaisei", "TITLE_PART"), ("ga", "TITLE_PART"), ("tonari", "TITLE_PART"), ("ni", "TITLE_PART"), ("kuru", "TITLE_PART"), ("hanashi", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("3", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("white", "TITLE_PART"), ("night", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("5", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("office", "TITLE_PART"), ("no", "TITLE_PART"), ("host", "TITLE_PART"), ("sama", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("2", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("the", "TITLE_PART"), ("maid", "TITLE_PART"), ("i", "TITLE_PART"), ("hired", "TITLE_PART"), ("recently", "TITLE_PART"), ("is", "TITLE_PART"), ("mysterious", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("71", "CHAPTER_NUM"), ("1", "OTHER")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("chronicles", "TITLE_PART"), ("of", "TITLE_PART"), ("the", "TITLE_PART"), ("lazy", "TITLE_PART"), ("sovereign", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("48", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("taejonbirok", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("48", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("i", "TITLE_PART"), ("was", "TITLE_PART"), ("reincarnated", "TITLE_PART"), ("as", "TITLE_PART"), ("the", "TITLE_PART"), ("villainess", "TITLE_PART"), ("s", "TITLE_PART"), ("sister", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("20", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("fuguu", "TITLE_PART"), ("reijou", "TITLE_PART"), ("to", "TITLE_PART"), ("hikikomori", "TITLE_PART"), ("mahoutsukai", "TITLE_PART"), ("futari", "TITLE_PART"), ("de", "TITLE_PART"), ("slow", "TITLE_PART"), ("life", "TITLE_PART"), ("wo", "TITLE_PART"), ("mezashimasu", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("4", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("neko", "TITLE_PART"), ("no", "TITLE_PART"), ("oshigoto", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("20", "CHAPTER_NUM"), ("1", "OTHER")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("i", "TITLE_PART"), ("ll", "TITLE_PART"), ("marry", "TITLE_PART"), ("your", "TITLE_PART"), ("brother", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("65", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("don", "TITLE_PART"), ("t", "TITLE_PART"), ("underestimate", "TITLE_PART"), ("bread", "TITLE_PART"), ("making", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("12", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("the", "TITLE_PART"), ("young", "TITLE_PART"), ("lady", "TITLE_PART"), ("has", "TITLE_PART"), ("been", "TITLE_PART"), ("acting", "TITLE_PART"), ("weird", "TITLE_PART"), ("ever", "TITLE_PART"), ("since", "TITLE_PART"), ("someone", "TITLE_PART"), ("confessed", "TITLE_PART"), ("to", "TITLE_PART"), ("me", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("7", "CHAPTER_NUM"), ("5", "OTHER")],
 
     # --- mangafire.to ---
     [("mangafire.to", "DOMAIN"), ("read", "STRUCTURAL"), ("monster", "TITLE_PART"), ("no", "TITLE_PART"), ("niku", "TITLE_PART"), ("wo", "TITLE_PART"), ("kutte", "TITLE_PART"), ("itara", "TITLE_PART"), ("oui", "TITLE_PART"), ("no", "TITLE_PART"), ("tsuita", "TITLE_PART"), ("kenn.xvqxv", "OTHER"), ("en", "STRUCTURAL"), ("chapter", "CHAPTER_INDICATOR"), ("12", "CHAPTER_NUM")],
@@ -106,8 +99,6 @@ crf_training_data = [
     [("comix.to", "DOMAIN"), ("title", "STRUCTURAL"), ("nlv93", "OTHER"), ("steaming", "TITLE_PART"), ("sniper", "TITLE_PART"), ("9499191", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("11", "CHAPTER_NUM")],
     [("comix.to", "DOMAIN"), ("title", "STRUCTURAL"), ("xj5q", "OTHER"), ("ore", "TITLE_PART"), ("ga", "TITLE_PART"), ("kokuhaku", "TITLE_PART"), ("sarete", "TITLE_PART"), ("kara", "TITLE_PART"), ("ojou", "TITLE_PART"), ("no", "TITLE_PART"), ("yousu", "TITLE_PART"), ("ga", "TITLE_PART"), ("okashii", "TITLE_PART"), ("7300916", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("7", "CHAPTER_NUM"), ("1", "OTHER")],
     [("comix.to", "DOMAIN"), ("title", "STRUCTURAL"), ("z1rk5", "OTHER"), ("ten", "TITLE_PART"), ("thousandfold", "TITLE_PART"), ("return", "TITLE_PART"), ("senior", "TITLE_PART"), ("sister", "TITLE_PART"), ("please", "TITLE_PART"), ("behave", "TITLE_PART"), ("8510259", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("10", "CHAPTER_NUM")],
-    [("comix.to", "DOMAIN"), ("title", "STRUCTURAL"), ("e071e", "OTHER"), ("chronicles", "TITLE_PART"), ("of", "TITLE_PART"), ("the", "TITLE_PART"), ("lazy", "TITLE_PART"), ("sovereign", "TITLE_PART"), ("9003571", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("46", "CHAPTER_NUM")],
-    [("comix.to", "DOMAIN"), ("title", "STRUCTURAL"), ("9zyj", "OTHER"), ("mata", "TITLE_PART"), ("korosarete", "TITLE_PART"), ("shimatta", "TITLE_PART"), ("no", "TITLE_PART"), ("desu", "TITLE_PART"), ("ne", "TITLE_PART"), ("tantei", "TITLE_PART"), ("sama", "TITLE_PART"), ("9498876", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("11", "CHAPTER_NUM")],
 
     # --- sanascans.com ---
     [("sanascans.com", "DOMAIN"), ("series", "STRUCTURAL"), ("the", "TITLE_PART"), ("unloved", "TITLE_PART"), ("lady", "TITLE_PART"), ("and", "TITLE_PART"), ("the", "TITLE_PART"), ("fluffy", "TITLE_PART"), ("second", "TITLE_PART"), ("prince", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("14", "CHAPTER_NUM")],
@@ -130,4 +121,52 @@ crf_training_data = [
     [("sanascans.com", "DOMAIN"), ("series", "STRUCTURAL"), ("if", "TITLE_PART"), ("they", "TITLE_PART"), ("find", "TITLE_PART"), ("out", "TITLE_PART"), ("i'm", "TITLE_PART"), ("a", "TITLE_PART"), ("mandragora", "TITLE_PART"), ("am", "TITLE_PART"), ("i", "TITLE_PART"), ("done", "TITLE_PART"), ("for", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("1", "CHAPTER_NUM")],
     [("sanascans.com", "DOMAIN"), ("series", "STRUCTURAL"), ("my", "TITLE_PART"), ("twin", "TITLE_PART"), ("stole", "TITLE_PART"), ("the", "TITLE_PART"), ("saint's", "TITLE_PART"), ("blessing", "TITLE_PART"), ("so", "TITLE_PART"), ("i'm", "TITLE_PART"), ("setting", "TITLE_PART"), ("out", "TITLE_PART"), ("to", "TITLE_PART"), ("find", "TITLE_PART"), ("a", "TITLE_PART"), ("kind", "TITLE_PART"), ("family", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("2", "CHAPTER_NUM")],
     [("sanascans.com", "DOMAIN"), ("series", "STRUCTURAL"), ("the", "TITLE_PART"), ("young", "TITLE_PART"), ("lady", "TITLE_PART"), ("betrayed", "TITLE_PART"), ("by", "TITLE_PART"), ("her", "TITLE_PART"), ("fiance", "TITLE_PART"), ("and", "TITLE_PART"), ("sister", "TITLE_PART"), ("returns", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("9", "CHAPTER_NUM")],
+]
+
+
+crf_testing_data = [
+    [("asurascans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("the", "TITLE_PART"), ("regressor", "TITLE_PART"), ("can", "TITLE_PART"), ("make", "TITLE_PART"), ("them", "TITLE_PART"), ("all", "TITLE_PART"), ("030ff47a", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("27", "CHAPTER_NUM")],
+    [("asurascans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("chronicles", "TITLE_PART"), ("of", "TITLE_PART"), ("the", "TITLE_PART"), ("lazy", "TITLE_PART"), ("sovereign", "TITLE_PART"), ("030ff47a", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("48", "CHAPTER_NUM")],
+    [("asurascans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("chronicles", "TITLE_PART"), ("of", "TITLE_PART"), ("the", "TITLE_PART"), ("demon", "TITLE_PART"), ("faction", "TITLE_PART"), ("030ff47a", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("170", "CHAPTER_NUM")],
+    
+    [("kunmanga.com", "DOMAIN"), ("manga", "STRUCTURAL"), ("becoming", "TITLE_PART"), ("a", "TITLE_PART"), ("villainess", "TITLE_PART"), ("yet", "TITLE_PART"), ("wanting", "TITLE_PART"), ("to", "TITLE_PART"), ("live", "TITLE_PART"), ("long", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("19", "CHAPTER_NUM")],
+    [("kunmanga.com", "DOMAIN"), ("manga", "STRUCTURAL"), ("limited", "TITLE_PART"), ("extra", "TITLE_PART"), ("time", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("113", "CHAPTER_NUM")],
+
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("i", "TITLE_PART"), ("became", "TITLE_PART"), ("the", "TITLE_PART"), ("trashy", "TITLE_PART"), ("dukes", "TITLE_PART"), ("affair", "TITLE_PART"), ("partner", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("16", "CHAPTER_NUM")],
+    [("mangakakalot.gg", "DOMAIN"), ("manga", "STRUCTURAL"), ("the", "TITLE_PART"), ("wavering", "TITLE_PART"), ("husband", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("34", "CHAPTER_NUM")],
+
+    [("comix.to", "DOMAIN"), ("title", "STRUCTURAL"), ("e071e", "OTHER"), ("chronicles", "TITLE_PART"), ("of", "TITLE_PART"), ("the", "TITLE_PART"), ("lazy", "TITLE_PART"), ("sovereign", "TITLE_PART"), ("9003571", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("46", "CHAPTER_NUM")],
+    [("comix.to", "DOMAIN"), ("title", "STRUCTURAL"), ("9zyj", "OTHER"), ("mata", "TITLE_PART"), ("korosarete", "TITLE_PART"), ("shimatta", "TITLE_PART"), ("no", "TITLE_PART"), ("desu", "TITLE_PART"), ("ne", "TITLE_PART"), ("tantei", "TITLE_PART"), ("sama", "TITLE_PART"), ("9498876", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("11", "CHAPTER_NUM")],
+
+    [("mangadex.org", "DOMAIN"), ("chapter", "CHAPTER_INDICATOR"), ("e4795762", "OTHER"), ("c16e", "OTHER"), ("4129", "OTHER"), ("ae77", "OTHER"), ("20135e264b36", "OTHER")],
+    [("mangadex.org", "DOMAIN"), ("chapter", "CHAPTER_INDICATOR"), ("088bcc49", "OTHER"), ("e610", "OTHER"), ("4adb", "OTHER"), ("b835", "OTHER"), ("ba4825e50f30", "OTHER")],
+    [("mangadex.org", "DOMAIN"), ("chapter", "CHAPTER_INDICATOR"), ("7d0347a0", "OTHER"), ("3a55", "OTHER"), ("45b0", "OTHER"), ("a288", "OTHER"), ("9b595593001d", "OTHER")],
+    [("mangadex.org", "DOMAIN"), ("chapter", "CHAPTER_INDICATOR"), ("641a27a1", "OTHER"), ("9124", "OTHER"), ("4ede", "OTHER"), ("ac10", "OTHER"), ("e39c77fe2698", "OTHER")],
+    [("mangadex.org", "DOMAIN"), ("chapter", "CHAPTER_INDICATOR"), ("94c2c979", "OTHER"), ("627d", "OTHER"), ("4d15", "OTHER"), ("8636", "OTHER"), ("b94c7e55dd00", "OTHER")],
+
+    # --- webtoons.com ---
+    # /en/genre/title-slug/episode-slug/viewer — episode number is in query param, not path
+    [("www.webtoons.com", "DOMAIN"), ("en", "STRUCTURAL"), ("fantasy", "STRUCTURAL"), ("osora", "TITLE_PART"), ("s2", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("54", "CHAPTER_NUM"), ("season", "OTHER"), ("2", "OTHER"), ("premiere", "OTHER"), ("viewer", "STRUCTURAL")],
+    [("www.webtoons.com", "DOMAIN"), ("en", "STRUCTURAL"), ("fantasy", "STRUCTURAL"), ("osora", "TITLE_PART"), ("s2", "OTHER"), ("chapter", "CHAPTER_INDICATOR"), ("95", "CHAPTER_NUM"), ("viewer", "STRUCTURAL")],
+    [("www.webtoons.com", "DOMAIN"), ("en", "STRUCTURAL"), ("canvas", "STRUCTURAL"), ("sketch", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("1", "CHAPTER_NUM"), ("viewer", "STRUCTURAL")],
+    [("www.webtoons.com", "DOMAIN"), ("en", "STRUCTURAL"), ("canvas", "STRUCTURAL"), ("replay", "TITLE_PART"), ("b", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("1", "CHAPTER_NUM"), ("viewer", "STRUCTURAL")],
+    [("www.webtoons.com", "DOMAIN"), ("en", "STRUCTURAL"), ("canvas", "STRUCTURAL"), ("the", "TITLE_PART"), ("comic", "TITLE_PART"), ("of", "TITLE_PART"), ("gilgamesh", "TITLE_PART"), ("chapter", "CHAPTER_INDICATOR"), ("1", "CHAPTER_NUM"), ("episode", "OTHER"), ("1", "OTHER"), ("viewer", "STRUCTURAL")],
+
+    # --- mangareader.to ---
+    # /read/title-numericid/en/chapter-num
+    # numeric suffix fused to title slug labeled OTHER, lang code STRUCTURAL
+    [("mangareader.to", "DOMAIN"), ("read", "STRUCTURAL"), ("one", "TITLE_PART"), ("piece", "TITLE_PART"), ("3", "OTHER"), ("en", "STRUCTURAL"), ("chapter", "CHAPTER_INDICATOR"), ("1147", "CHAPTER_NUM")],
+    [("mangareader.to", "DOMAIN"), ("read", "STRUCTURAL"), ("one", "TITLE_PART"), ("piece", "TITLE_PART"), ("3", "OTHER"), ("en", "STRUCTURAL"), ("chapter", "CHAPTER_INDICATOR"), ("1138", "CHAPTER_NUM")],
+    [("mangareader.to", "DOMAIN"), ("read", "STRUCTURAL"), ("berserk", "TITLE_PART"), ("1", "OTHER"), ("en", "STRUCTURAL"), ("chapter", "CHAPTER_INDICATOR"), ("1", "CHAPTER_NUM")],
+    [("mangareader.to", "DOMAIN"), ("read", "STRUCTURAL"), ("berserk", "TITLE_PART"), ("1", "OTHER"), ("en", "STRUCTURAL"), ("chapter", "CHAPTER_INDICATOR"), ("14", "CHAPTER_NUM")],
+    [("mangareader.to", "DOMAIN"), ("read", "STRUCTURAL"), ("real", "TITLE_PART"), ("35", "OTHER"), ("en", "STRUCTURAL"), ("chapter", "CHAPTER_INDICATOR"), ("1", "CHAPTER_NUM")],
+
+    # --- reaperscans.com (reconstructed, site is down) ---
+    # /comics/title-slug/chapters/num — based on known convention
+    [("reaperscans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("solo", "TITLE_PART"), ("leveling", "TITLE_PART"), ("chapters", "CHAPTER_INDICATOR"), ("187", "CHAPTER_NUM")],
+    [("reaperscans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("omniscient", "TITLE_PART"), ("reader", "TITLE_PART"), ("chapters", "CHAPTER_INDICATOR"), ("52", "CHAPTER_NUM")],
+    [("reaperscans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("the", "TITLE_PART"), ("beginning", "TITLE_PART"), ("after", "TITLE_PART"), ("the", "TITLE_PART"), ("end", "TITLE_PART"), ("chapters", "CHAPTER_INDICATOR"), ("170", "CHAPTER_NUM")],
+    [("reaperscans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("return", "TITLE_PART"), ("of", "TITLE_PART"), ("the", "TITLE_PART"), ("mount", "TITLE_PART"), ("hua", "TITLE_PART"), ("sect", "TITLE_PART"), ("chapters", "CHAPTER_INDICATOR"), ("93", "CHAPTER_NUM")],
+    [("reaperscans.com", "DOMAIN"), ("comics", "STRUCTURAL"), ("how", "TITLE_PART"), ("to", "TITLE_PART"), ("survive", "TITLE_PART"), ("at", "TITLE_PART"), ("the", "TITLE_PART"), ("academy", "TITLE_PART"), ("chapters", "CHAPTER_INDICATOR"), ("38", "CHAPTER_NUM")],
+
 ]

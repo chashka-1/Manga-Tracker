@@ -11,7 +11,7 @@ from sklearn_crfsuite import metrics
 import pandas as pd # interprets csv file data
 import pickle # serializing objects (turning data types into formats they can be stored in e.g. bytes)
 
-from training_data import crf_training_data # imports the training data for the crf (too long so it looked ugly here)
+from training_data import crf_training_data, crf_testing_data # imports the training/testing data for the crf (too long so it looked ugly here)
 
 Domain_Keywords = ["manga", "manhwa", "manhua", "comic", "scan", "comics", "scans"]
 Category_keywords = ["manga", "manhwa", "manhua", "comics", "read", "series"]
@@ -86,10 +86,10 @@ def token_features(sequence, index: int):
         "is_chapter_indicator": token in Chapter_Keywords,
 
         "prev_token": sequence[index -1] if index > 0 else "START",
-        "next_token": sequence[index +1] if index < len(sequence) + 1 else "END",
+        "next_token": sequence[index +1] if index < len(sequence) - 1 else "END",
 
         "prev_title_candidate": looks_like_title_part(sequence[index-1]) if index > 0 else False,
-        "next_title_candidate": looks_like_title_part(sequence[index+1]) if index < len(sequence)-1 else False,
+        "next_title_candidate": looks_like_title_part(sequence[index+1]) if index < len(sequence) - 1 else False,
 
         "prev_is_structural": sequence[index-1] in Category_keywords if index > 0 else False,
         "prev_is_chapter_indicator": sequence[index - 1] in Chapter_Keywords if index > 0 else False,
@@ -106,8 +106,45 @@ def token_features(sequence, index: int):
     return features
 
 def sequence_feature_extraction(sequence):
-    # cycles labels every token in sequence
+    # labels every token in a sequence
     return [token_features(sequence, i) for i in range(len(sequence))]
+
+def train_crf(sequence_array, testing_array):
+    X_train_unprocessed = []
+    y_train = []
+
+    for sequence in sequence_array:
+        tokens = [token for token, label in sequence]
+        labels = [label for token, label in sequence]
+
+        X_train_unprocessed.append(tokens)
+        y_train.append(labels)
+
+    X_test_unprocessed = []
+    y_test = []
+
+    for sequence in testing_array:
+        tokens = [token for token, label in sequence]
+        labels = [label for token, label in sequence]
+
+        X_test_unprocessed.append(tokens)
+        y_test.append(labels)
+
+    X_train = [sequence_feature_extraction(token_line) for token_line in X_train_unprocessed]
+    X_test = [sequence_feature_extraction(token_line) for token_line in X_test_unprocessed]
+
+    crf = sklearn_crfsuite.CRF(algorithm = "lbfgs", c1 = 0.1, c2 = 0.1, max_iterations = 150, all_possible_states = True, all_possible_transitions = True)
+
+    crf.fit(X_train, y_train)
+
+    print(metrics.flat_classification_report(y_test, crf.predict(X_test)))
+
+
+    #with open("manga_crf.pkl", "wb") as f:
+    #    pickle.dump(crf, f)
+
+
+
 
 
 
@@ -121,9 +158,16 @@ def isManga():
     prediction = model.predict([features])
 
     if prediction:
-        print(f'{url} IS a manga website! It will automatically be added to the database.')
+        print(f'✅ {url} IS a manga website! It will automatically be added to the database.')
     else:
-        print(f'{url} is NOT a manga website. It will not be automatically added to the database.')
+        print(f'❌ {url} is NOT a manga website. It will not be automatically added to the database.')
 
-if True:
-    isManga()
+def mangaUrlDecomposition(url):
+    with open("manga_crf.pkl", "rb") as f:
+        crf = pickle.load(f)
+
+    # PARSE URL
+    # do prediction
+    
+train_crf(crf_training_data, crf_testing_data)
+
